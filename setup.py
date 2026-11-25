@@ -211,6 +211,8 @@ ext_modules.append(
             "csrc/gfx93/decode/sparse_fp8/instantiations/v32_persistent_h16.cu",
             "csrc/gfx93/decode/sparse_fp8/instantiations/v32_persistent_h64.cu",
             "csrc/gfx93/decode/sparse_fp8/instantiations/v32_persistent_h128.cu",
+            "csrc/gfx93/decode/sparse_fp4/instantiations/v41fp4_h64.cu",
+            "csrc/gfx93/decode/sparse_fp4/instantiations/v41fp4_h64_no_split.cu",
             "csrc/gfx93/decode/sparse_bf16_dsa/fwd.cu",
 
             # # gfx93 sparse prefill
